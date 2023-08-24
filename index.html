@@ -3,78 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Diseñador Freelancer</title>
     <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1 class="titulo">Carlos Antonio <span>Freelancer</span></h1>
     </header>
-    <div>
+    <div class="nav-bg">
         <nav class="navegacion-principal">
             <a href="#">Inicio</a>
-            <a href="#">acerca de mi</a>
-            <a href="#">clientes</a>
-            <a href="#">conctatos</a>
+            <a href="#">Acerca de mi</a>
+            <a href="#">Clientes</a>
+            <a href="#">Contactos</a>
         </nav>
+    </div>
+    <!--Esta porcion de codigo indica la ubicacion de la imagen principal-->
+    <section class="hero">
+        <div class="contenedor-hero">
+            <h2>Diseño y Desarrollo Web<span> Freelancer</span></h2>
+            <div class="ubicacion">
+                ubicacion
+            </div>
+            <a href="#">Contactar</a>
         </div>
-        <!--Esta porcion de codiga indica la ubicacion de la imagen principal-->
-    <section>
-        <h2>Diseño y Desarrollo web<span>Freelancer</span></h2>
-        <div>
-            Ubicación
-        </div>
-        <a href="#">Contatar</a>
     </section>
     <main class="contenedor sombra">
-        <section>
-            <h3>Diseño Wesb</h3>
-            <div class="Icono">
-                Diseño web
-            </div>
-            <p>Saepe aspernatur aliquid pariatur, vero officia maiores iste, nobis accusamus, ipsam eligendi qui est optio nihil quia alias cumque labore.</p>
-        </section> 
-        </section>
-    <main>
-        <section>
-            <h3>Aplicaciones Web</h3>
-            <div class="servicios">
-                Android
-
-                apple
-            </div>
-            <p>Saepe aspernatur aliquid pariatur, vero officia maiores iste, nobis accusamus, ipsam eligendi qui est optio nihil quia alias cumque labore.</p>
-        </section>
-    <main>
-        <section>
-            <h3>Contacto</h3>
-            <form action="">
-                <fieldset>
-                    <legend>
-                        Contactanos rellenando este formulario
-                    </legend>
-                    <div>
-                        <label form="nombra">Nombre</label>
-                        <input type="text" placeholder="ingresa tu numero telefonico"></input>
-                    </div>
-                    <div>
-                        <label form="telefono">Telefono</label>
-                        <input type="email" placeholder="tu correo aqui"></input>
-                    </div>
-                    <div>
-                            <label form="mensaje">Mensaje</label>
-                            <textarea name="" id="" cols="30" rows="10" placeholder="mensaje admite 3000 caracteres"></textarea>
-                    </div>
-
-                    <div class="alinear-derecha flex">
-                        <input class="boton w-sm-100" type="submit" value="registrar">
-                    </div>
-                </fieldset>
-            </form>
-        </section> 
+        <h2>Servicios</h2>
+        <div class="servicios">
+            <section class="servicio">
+                <h3>Diseño Web</h3>
+                <div class="icono">
+                    Diseño Web
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </section>
+            <section class="servicio">
+                <h3>Aplicaciones Web</h3>
+                <div class="icono">
+                    Android
+                    
+                    apple
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </section>
+            <section class="servicio">
+                <h3>E-Commerce</h3>
+                <div class="icono">
+                    E-Commerce
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </section>
+            <section>
+                <h3>Contacto</h3>
+                <form action="" class="formulario">
+                    <fieldset>
+                        <legend>Contactanos rellenando este formulario</legend>
+                        <div class="contenedor-campos">
+                            <label for="nombre">Nombre: </label>
+                            <input class="input-text" type="text" placeholder="ingresa tu nombre">
+                        </div>
+                        <div class="campo">
+                            <label for="telefono">Telefono: </label>
+                            <input class="input-text" type="tel" placeholder="tu telefono">
+                        </div>
+                        <div class="campo">
+                            <label for="correo">Correo: </label>
+                            <input class="input-text" type="email" placeholder="tu correo aqui">
+                        </div>
+                        <div class="campo">
+                            <label for="mensaje">Mensaje: </label>
+                            <textarea class="input-text" name="" id="" cols="30" rows="10" placeholder="mensaje admite 3000 caracteres"></textarea>
+                        </div>
+    
+                        <div class="alinear-derecha flex">
+                            <input class="boton w-sm-100" type="submit" value="Registrar">
+                        </div>
+                    </fieldset>
+                </form>
+            </section>
+        </div>
+        
     </main>
-    <footer>
-        <p>Todos los derechos reservados, Carlos Antonio Freelancer</p>
+    <footer class="footer">
+        <p>Todos los derechos reservados. Angel Gamarra Freelancer</p>
     </footer>
 </body>
 </html>
